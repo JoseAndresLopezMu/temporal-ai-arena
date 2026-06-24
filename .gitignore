@@ -1,0 +1,26 @@
+# Entorno virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# uv (herramienta de gestión local, no necesaria para usuarios que clonan)
+uv.lock
+pyproject.toml
+.python-version
+
+# Notas personales
+GUIA_ESTUDIO.md
+
+# Stub vacío generado por uv
+main.py
+
+# Misc
+.DS_Store
+*.egg-info/
+dist/
+build/
